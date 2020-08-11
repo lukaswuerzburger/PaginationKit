@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="https://raw.githubusercontent.com/lukaswuerzburger/PaginationController/develop/readme-images/icon.png" alt="PaginationController" title="PaginationController" width="128"  height="128"/><br/>
+    <img src="https://raw.githubusercontent.com/lukaswuerzburger/PaginationController/develop/readme-images/logo.png" alt="PaginationController" title="PaginationController" width="128"  height="128"/><br/>
     <b>PaginationController</b><br/>
     <br/>
     <img src="https://img.shields.io/badge/Swift-5-orange" alt="Swift Version" title="Swift Version"/>
