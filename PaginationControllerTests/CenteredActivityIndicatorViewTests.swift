@@ -12,7 +12,7 @@ import XCTest
 class CenteredActivityIndicatorViewTests: XCTestCase {
 
     func testForwardsAnimationToActivityIndicatorView() {
-        let loadingView = CenteredActivityIndicatorView(activityIndicatorStyle: .medium)
+        let loadingView = CenteredActivityIndicatorView(activityIndicatorStyle: .gray)
         XCTAssertFalse(loadingView.activityIndicatorView.isAnimating)
         loadingView.startAnimating()
         XCTAssertTrue(loadingView.activityIndicatorView.isAnimating)

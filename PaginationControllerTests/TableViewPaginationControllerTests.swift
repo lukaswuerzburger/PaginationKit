@@ -13,7 +13,7 @@ class TableViewPaginationControllerTests: XCTestCase {
 
     func testInitializerStoresArguments() {
         let tableView = UITableView()
-        let loadingView = CenteredActivityIndicatorView(activityIndicatorStyle: .medium)
+        let loadingView = CenteredActivityIndicatorView(activityIndicatorStyle: .gray)
         var didCallCallback = false
         let controller = TableViewPaginationController(tableView: tableView, loadingView: loadingView, initialPage: TestPage(hasNextPageValue: true)) { _, _ in
             didCallCallback = true
