@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
     s.name = "PaginationController"
     s.version = "1.0.0"
-    s.summary = "PaginationController provides logic to paginate through an API."
+    s.summary = "PaginationController provides logic to paginate through a list."
     s.author = "Lukas Würzburger"
     s.license = { :type => "MIT" }
     s.homepage = "https://github.com/lukaswuerzburger/PaginationController"
