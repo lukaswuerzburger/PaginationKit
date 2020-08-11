@@ -7,9 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		212EB95424E1C589009B4C92 /* ResponsePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 212EB95324E1C589009B4C92 /* ResponsePage.swift */; };
+		212EB95624E2898C009B4C92 /* TableViewPaginationControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 212EB95524E2898C009B4C92 /* TableViewPaginationControllerTests.swift */; };
+		212EB95824E28A45009B4C92 /* TestPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 212EB95724E28A45009B4C92 /* TestPage.swift */; };
+		212EB95A24E2A1F4009B4C92 /* CenteredActivityIndicatorViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 212EB95924E2A1F4009B4C92 /* CenteredActivityIndicatorViewTests.swift */; };
 		214E7BAD24E020B90002B83E /* PaginationController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 214E7BA324E020B90002B83E /* PaginationController.framework */; };
 		214E7BB224E020B90002B83E /* PaginationControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 214E7BB124E020B90002B83E /* PaginationControllerTests.swift */; };
 		214E7BB424E020B90002B83E /* PaginationController.h in Headers */ = {isa = PBXBuildFile; fileRef = 214E7BA624E020B90002B83E /* PaginationController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		214E7BC424E020E70002B83E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 214E7BC324E020E70002B83E /* AppDelegate.swift */; };
+		214E7BC824E020E70002B83E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 214E7BC724E020E70002B83E /* ViewController.swift */; };
+		214E7BCB24E020E70002B83E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 214E7BC924E020E70002B83E /* Main.storyboard */; };
+		214E7BCD24E020E80002B83E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 214E7BCC24E020E80002B83E /* Assets.xcassets */; };
+		214E7BD024E020E80002B83E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 214E7BCE24E020E80002B83E /* LaunchScreen.storyboard */; };
+		214E7BD724E0211D0002B83E /* TableViewPaginationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 214E7BD524E0211C0002B83E /* TableViewPaginationController.swift */; };
+		214E7BD824E0211D0002B83E /* PaginationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 214E7BD624E0211D0002B83E /* PaginationController.swift */; };
+		214E7BDA24E048D20002B83E /* CenteredActivityIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 214E7BD924E048D20002B83E /* CenteredActivityIndicatorView.swift */; };
+		214E7BDC24E04D670002B83E /* Page.swift in Sources */ = {isa = PBXBuildFile; fileRef = 214E7BDB24E04D670002B83E /* Page.swift */; };
+		214E7BDE24E04D810002B83E /* LoadingAnimatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 214E7BDD24E04D810002B83E /* LoadingAnimatable.swift */; };
+		214E7BE224E04FFA0002B83E /* PaginationController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 214E7BA324E020B90002B83E /* PaginationController.framework */; };
+		214E7BE324E04FFA0002B83E /* PaginationController.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 214E7BA324E020B90002B83E /* PaginationController.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -20,15 +36,52 @@
 			remoteGlobalIDString = 214E7BA224E020B90002B83E;
 			remoteInfo = PaginationController;
 		};
+		214E7BE424E04FFB0002B83E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 214E7B9A24E020B90002B83E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 214E7BA224E020B90002B83E;
+			remoteInfo = PaginationController;
+		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		214E7BE624E04FFB0002B83E /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				214E7BE324E04FFA0002B83E /* PaginationController.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		212EB95324E1C589009B4C92 /* ResponsePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponsePage.swift; sourceTree = "<group>"; };
+		212EB95524E2898C009B4C92 /* TableViewPaginationControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewPaginationControllerTests.swift; sourceTree = "<group>"; };
+		212EB95724E28A45009B4C92 /* TestPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestPage.swift; sourceTree = "<group>"; };
+		212EB95924E2A1F4009B4C92 /* CenteredActivityIndicatorViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CenteredActivityIndicatorViewTests.swift; sourceTree = "<group>"; };
 		214E7BA324E020B90002B83E /* PaginationController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PaginationController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		214E7BA624E020B90002B83E /* PaginationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PaginationController.h; sourceTree = "<group>"; };
 		214E7BA724E020B90002B83E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		214E7BAC24E020B90002B83E /* PaginationControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PaginationControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		214E7BB124E020B90002B83E /* PaginationControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaginationControllerTests.swift; sourceTree = "<group>"; };
 		214E7BB324E020B90002B83E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		214E7BC124E020E70002B83E /* PaginationControllerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PaginationControllerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		214E7BC324E020E70002B83E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		214E7BC724E020E70002B83E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		214E7BCA24E020E70002B83E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		214E7BCC24E020E80002B83E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		214E7BCF24E020E80002B83E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		214E7BD124E020E80002B83E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		214E7BD524E0211C0002B83E /* TableViewPaginationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewPaginationController.swift; sourceTree = "<group>"; };
+		214E7BD624E0211D0002B83E /* PaginationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaginationController.swift; sourceTree = "<group>"; };
+		214E7BD924E048D20002B83E /* CenteredActivityIndicatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CenteredActivityIndicatorView.swift; sourceTree = "<group>"; };
+		214E7BDB24E04D670002B83E /* Page.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page.swift; sourceTree = "<group>"; };
+		214E7BDD24E04D810002B83E /* LoadingAnimatable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingAnimatable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +100,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		214E7BBE24E020E70002B83E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				214E7BE224E04FFA0002B83E /* PaginationController.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -55,7 +116,9 @@
 			children = (
 				214E7BA524E020B90002B83E /* PaginationController */,
 				214E7BB024E020B90002B83E /* PaginationControllerTests */,
+				214E7BC224E020E70002B83E /* PaginationControllerDemo */,
 				214E7BA424E020B90002B83E /* Products */,
+				214E7BE124E04FFA0002B83E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -64,6 +127,7 @@
 			children = (
 				214E7BA324E020B90002B83E /* PaginationController.framework */,
 				214E7BAC24E020B90002B83E /* PaginationControllerTests.xctest */,
+				214E7BC124E020E70002B83E /* PaginationControllerDemo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -71,8 +135,8 @@
 		214E7BA524E020B90002B83E /* PaginationController */ = {
 			isa = PBXGroup;
 			children = (
-				214E7BA624E020B90002B83E /* PaginationController.h */,
-				214E7BA724E020B90002B83E /* Info.plist */,
+				214E7BDF24E04DF90002B83E /* Sources */,
+				214E7BE024E04DFF0002B83E /* Supporting Files */,
 			);
 			path = PaginationController;
 			sourceTree = "<group>";
@@ -81,9 +145,54 @@
 			isa = PBXGroup;
 			children = (
 				214E7BB124E020B90002B83E /* PaginationControllerTests.swift */,
+				212EB95524E2898C009B4C92 /* TableViewPaginationControllerTests.swift */,
+				212EB95924E2A1F4009B4C92 /* CenteredActivityIndicatorViewTests.swift */,
+				212EB95724E28A45009B4C92 /* TestPage.swift */,
 				214E7BB324E020B90002B83E /* Info.plist */,
 			);
 			path = PaginationControllerTests;
+			sourceTree = "<group>";
+		};
+		214E7BC224E020E70002B83E /* PaginationControllerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				214E7BC324E020E70002B83E /* AppDelegate.swift */,
+				214E7BC724E020E70002B83E /* ViewController.swift */,
+				212EB95324E1C589009B4C92 /* ResponsePage.swift */,
+				214E7BC924E020E70002B83E /* Main.storyboard */,
+				214E7BCC24E020E80002B83E /* Assets.xcassets */,
+				214E7BCE24E020E80002B83E /* LaunchScreen.storyboard */,
+				214E7BD124E020E80002B83E /* Info.plist */,
+			);
+			path = PaginationControllerDemo;
+			sourceTree = "<group>";
+		};
+		214E7BDF24E04DF90002B83E /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				214E7BD624E0211D0002B83E /* PaginationController.swift */,
+				214E7BD524E0211C0002B83E /* TableViewPaginationController.swift */,
+				214E7BD924E048D20002B83E /* CenteredActivityIndicatorView.swift */,
+				214E7BDD24E04D810002B83E /* LoadingAnimatable.swift */,
+				214E7BDB24E04D670002B83E /* Page.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		214E7BE024E04DFF0002B83E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				214E7BA624E020B90002B83E /* PaginationController.h */,
+				214E7BA724E020B90002B83E /* Info.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		214E7BE124E04FFA0002B83E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,6 +245,25 @@
 			productReference = 214E7BAC24E020B90002B83E /* PaginationControllerTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		214E7BC024E020E70002B83E /* PaginationControllerDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 214E7BD224E020E80002B83E /* Build configuration list for PBXNativeTarget "PaginationControllerDemo" */;
+			buildPhases = (
+				214E7BBD24E020E70002B83E /* Sources */,
+				214E7BBE24E020E70002B83E /* Frameworks */,
+				214E7BBF24E020E70002B83E /* Resources */,
+				214E7BE624E04FFB0002B83E /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				214E7BE524E04FFB0002B83E /* PBXTargetDependency */,
+			);
+			name = PaginationControllerDemo;
+			productName = PaginationControllerDemo;
+			productReference = 214E7BC124E020E70002B83E /* PaginationControllerDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -148,8 +276,12 @@
 				TargetAttributes = {
 					214E7BA224E020B90002B83E = {
 						CreatedOnToolsVersion = 11.6;
+						LastSwiftMigration = 1160;
 					};
 					214E7BAB24E020B90002B83E = {
+						CreatedOnToolsVersion = 11.6;
+					};
+					214E7BC024E020E70002B83E = {
 						CreatedOnToolsVersion = 11.6;
 					};
 				};
@@ -169,6 +301,7 @@
 			targets = (
 				214E7BA224E020B90002B83E /* PaginationController */,
 				214E7BAB24E020B90002B83E /* PaginationControllerTests */,
+				214E7BC024E020E70002B83E /* PaginationControllerDemo */,
 			);
 		};
 /* End PBXProject section */
@@ -188,6 +321,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		214E7BBF24E020E70002B83E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				214E7BD024E020E80002B83E /* LaunchScreen.storyboard in Resources */,
+				214E7BCD24E020E80002B83E /* Assets.xcassets in Resources */,
+				214E7BCB24E020E70002B83E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -195,6 +338,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				214E7BD724E0211D0002B83E /* TableViewPaginationController.swift in Sources */,
+				214E7BD824E0211D0002B83E /* PaginationController.swift in Sources */,
+				214E7BDE24E04D810002B83E /* LoadingAnimatable.swift in Sources */,
+				214E7BDC24E04D670002B83E /* Page.swift in Sources */,
+				214E7BDA24E048D20002B83E /* CenteredActivityIndicatorView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -203,6 +351,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				214E7BB224E020B90002B83E /* PaginationControllerTests.swift in Sources */,
+				212EB95A24E2A1F4009B4C92 /* CenteredActivityIndicatorViewTests.swift in Sources */,
+				212EB95824E28A45009B4C92 /* TestPage.swift in Sources */,
+				212EB95624E2898C009B4C92 /* TableViewPaginationControllerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		214E7BBD24E020E70002B83E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				214E7BC824E020E70002B83E /* ViewController.swift in Sources */,
+				212EB95424E1C589009B4C92 /* ResponsePage.swift in Sources */,
+				214E7BC424E020E70002B83E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -214,7 +375,31 @@
 			target = 214E7BA224E020B90002B83E /* PaginationController */;
 			targetProxy = 214E7BAE24E020B90002B83E /* PBXContainerItemProxy */;
 		};
+		214E7BE524E04FFB0002B83E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 214E7BA224E020B90002B83E /* PaginationController */;
+			targetProxy = 214E7BE424E04FFB0002B83E /* PBXContainerItemProxy */;
+		};
 /* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		214E7BC924E020E70002B83E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				214E7BCA24E020E70002B83E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		214E7BCE24E020E80002B83E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				214E7BCF24E020E80002B83E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		214E7BB524E020B90002B83E /* Debug */ = {
@@ -340,12 +525,13 @@
 		214E7BB824E020B90002B83E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = PaginationController/Info.plist;
+				INFOPLIST_FILE = "PaginationController/Supporting Files/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -355,6 +541,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = de.lukaswuerzburger.PaginationController;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -363,12 +550,13 @@
 		214E7BB924E020B90002B83E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = PaginationController/Info.plist;
+				INFOPLIST_FILE = "PaginationController/Supporting Files/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -386,6 +574,7 @@
 		214E7BBB24E020B90002B83E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = PaginationControllerTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -403,6 +592,7 @@
 		214E7BBC24E020B90002B83E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = PaginationControllerTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -411,6 +601,40 @@
 					"@loader_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = de.lukaswuerzburger.PaginationControllerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		214E7BD324E020E80002B83E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PaginationControllerDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = de.lukaswuerzburger.PaginationControllerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		214E7BD424E020E80002B83E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PaginationControllerDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = de.lukaswuerzburger.PaginationControllerDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -443,6 +667,15 @@
 			buildConfigurations = (
 				214E7BBB24E020B90002B83E /* Debug */,
 				214E7BBC24E020B90002B83E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		214E7BD224E020E80002B83E /* Build configuration list for PBXNativeTarget "PaginationControllerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				214E7BD324E020E80002B83E /* Debug */,
+				214E7BD424E020E80002B83E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

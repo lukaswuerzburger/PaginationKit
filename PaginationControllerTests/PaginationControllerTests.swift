@@ -11,24 +11,96 @@ import XCTest
 
 class PaginationControllerTests: XCTestCase {
 
-    override func setUpWithError() throws {
-        // Put setup code here. This method is called before the invocation of each test method in the class.
-    }
-
-    override func tearDownWithError() throws {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
-    }
-
-    func testExample() throws {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
-    }
-
-    func testPerformanceExample() throws {
-        // This is an example of a performance test case.
-        self.measure {
-            // Put the code you want to measure the time of here.
+    func testInitializerStoresArguments() {
+        let page = TestPage(hasNextPageValue: true)
+        var didCallClosure = false
+        let paginationController = PaginationController(initialPage: page) { previous, callback in
+            didCallClosure = true
         }
+        XCTAssertEqual(page, paginationController.lastPage)
+        XCTAssertFalse(didCallClosure)
+        paginationController.loadResource(TestPage(hasNextPageValue: true), { _ in })
+        XCTAssertTrue(didCallClosure)
     }
 
+    func testReset() {
+        let paginationController = PaginationController(initialPage: TestPage(hasNextPageValue: true)) { _, _ in }
+        XCTAssertNotNil(paginationController.lastPage)
+        XCTAssertEqual(paginationController.state, .idle)
+        paginationController.loadNextPageIfNecessary()
+        XCTAssertEqual(paginationController.state, .running)
+        paginationController.reset()
+        XCTAssertNil(paginationController.lastPage)
+        XCTAssertEqual(paginationController.state, .idle)
+    }
+
+    func testCallsDelegateWhenStarting() {
+        let paginationController = PaginationController(initialPage: TestPage(hasNextPageValue: true)) { _, callback in
+            callback(nil)
+        }
+        let delegate = LifeCycleDelegate()
+        paginationController.lifeCycleDelegate = delegate
+        XCTAssertFalse(delegate.didCallPaginationDidStartLoading)
+        XCTAssertFalse(delegate.didCallPaginationDidStopLoading)
+        paginationController.loadNextPageIfNecessary()
+        XCTAssertTrue(delegate.didCallPaginationDidStartLoading)
+        XCTAssertTrue(delegate.didCallPaginationDidStopLoading)
+    }
+
+    func testStartsWhenNotRunning() {
+        let paginationController = PaginationController(initialPage: TestPage(hasNextPageValue: true)) { _, callback in
+            DispatchQueue.main.async {
+                callback(nil)
+            }
+        }
+        let expect = expectation(description: "did stop callback being called.")
+        let delegate = LifeCycleDelegate()
+        delegate.didCallPaginationDidStopLoadingCallback = {
+            XCTAssertEqual(paginationController.state, .idle)
+            expect.fulfill()
+        }
+        paginationController.lifeCycleDelegate = delegate
+        XCTAssertEqual(paginationController.state, .idle)
+        paginationController.loadNextPageIfNecessary()
+        XCTAssertEqual(paginationController.state, .running)
+        wait(for: [expect], timeout: 1)
+    }
+
+    func testDoesNotStartWhenRunning() {
+        let paginationController = PaginationController(initialPage: TestPage(hasNextPageValue: true)) { _, _ in }
+        XCTAssertEqual(paginationController.state, .idle)
+        paginationController.loadNextPageIfNecessary()
+        XCTAssertEqual(paginationController.state, .running)
+        let delegate = LifeCycleDelegate()
+        paginationController.lifeCycleDelegate = delegate
+        paginationController.loadNextPageIfNecessary()
+        XCTAssertFalse(delegate.didCallPaginationDidStartLoading)
+    }
+
+    func testDoesNotStartWhenLastPageWasLast() {
+        let paginationController = PaginationController(initialPage: TestPage(hasNextPageValue: false)) { _, _ in }
+        XCTAssertEqual(paginationController.state, .idle)
+        paginationController.loadNextPageIfNecessary()
+        XCTAssertEqual(paginationController.state, .idle)
+    }
+}
+
+class LifeCycleDelegate: PaginationLifeCycleDelegate {
+
+    var didCallPaginationDidStartLoadingCallback: (() -> Void)? = nil
+    var didCallPaginationDidStartLoading = false {
+        didSet { didCallPaginationDidStartLoadingCallback?() }
+    }
+    var didCallPaginationDidStopLoadingCallback: (() -> Void)? = nil
+    var didCallPaginationDidStopLoading = false {
+        didSet { didCallPaginationDidStopLoadingCallback?() }
+    }
+
+    func paginationDidStartLoading() {
+        didCallPaginationDidStartLoading = true
+    }
+
+    func paginationDidStopLoading() {
+        didCallPaginationDidStopLoading = true
+    }
 }
