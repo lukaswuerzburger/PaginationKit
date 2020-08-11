@@ -15,7 +15,7 @@ class TableViewPaginationControllerTests: XCTestCase {
         let tableView = UITableView()
         let loadingView = CenteredActivityIndicatorView(activityIndicatorStyle: .medium)
         var didCallCallback = false
-        let controller = TableViewPaginationController(tableView: tableView, loadingView: loadingView, initialPage: TestPage(hasNextPageValue: true)) { (_, callback) in
+        let controller = TableViewPaginationController(tableView: tableView, loadingView: loadingView, initialPage: TestPage(hasNextPageValue: true)) { _, _ in
             didCallCallback = true
         }
         XCTAssertEqual(tableView, controller.tableView)

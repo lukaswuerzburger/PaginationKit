@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0C1ADE2D23B992F96F06CE59 /* Pods_PaginationControllerDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F39E0094710A32BC2BD236CA /* Pods_PaginationControllerDemo.framework */; };
 		212EB95424E1C589009B4C92 /* ResponsePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 212EB95324E1C589009B4C92 /* ResponsePage.swift */; };
 		212EB95624E2898C009B4C92 /* TableViewPaginationControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 212EB95524E2898C009B4C92 /* TableViewPaginationControllerTests.swift */; };
 		212EB95824E28A45009B4C92 /* TestPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 212EB95724E28A45009B4C92 /* TestPage.swift */; };
@@ -26,6 +27,8 @@
 		214E7BDE24E04D810002B83E /* LoadingAnimatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 214E7BDD24E04D810002B83E /* LoadingAnimatable.swift */; };
 		214E7BE224E04FFA0002B83E /* PaginationController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 214E7BA324E020B90002B83E /* PaginationController.framework */; };
 		214E7BE324E04FFA0002B83E /* PaginationController.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 214E7BA324E020B90002B83E /* PaginationController.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		925B67F5B8781103A89C7008 /* Pods_PaginationController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 458726CDD72524EB56F8B9EC /* Pods_PaginationController.framework */; };
+		BBF8A25EEED52BC8DFE89E5D /* Pods_PaginationController_PaginationControllerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45C7DB3869B8D53B4222E931 /* Pods_PaginationController_PaginationControllerTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +63,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		17C68901E4FAA46FAC24E0D0 /* Pods-PaginationControllerDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PaginationControllerDemo.debug.xcconfig"; path = "Target Support Files/Pods-PaginationControllerDemo/Pods-PaginationControllerDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		212EB95324E1C589009B4C92 /* ResponsePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponsePage.swift; sourceTree = "<group>"; };
 		212EB95524E2898C009B4C92 /* TableViewPaginationControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewPaginationControllerTests.swift; sourceTree = "<group>"; };
 		212EB95724E28A45009B4C92 /* TestPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestPage.swift; sourceTree = "<group>"; };
@@ -82,6 +86,14 @@
 		214E7BD924E048D20002B83E /* CenteredActivityIndicatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CenteredActivityIndicatorView.swift; sourceTree = "<group>"; };
 		214E7BDB24E04D670002B83E /* Page.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page.swift; sourceTree = "<group>"; };
 		214E7BDD24E04D810002B83E /* LoadingAnimatable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingAnimatable.swift; sourceTree = "<group>"; };
+		432C2DF61CF7363FA71F7A74 /* Pods-PaginationControllerDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PaginationControllerDemo.release.xcconfig"; path = "Target Support Files/Pods-PaginationControllerDemo/Pods-PaginationControllerDemo.release.xcconfig"; sourceTree = "<group>"; };
+		458726CDD72524EB56F8B9EC /* Pods_PaginationController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PaginationController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		45C7DB3869B8D53B4222E931 /* Pods_PaginationController_PaginationControllerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PaginationController_PaginationControllerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DAE365377A1658F68022F09 /* Pods-PaginationController.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PaginationController.debug.xcconfig"; path = "Target Support Files/Pods-PaginationController/Pods-PaginationController.debug.xcconfig"; sourceTree = "<group>"; };
+		789F4877F6E07CED1501B426 /* Pods-PaginationController-PaginationControllerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PaginationController-PaginationControllerTests.release.xcconfig"; path = "Target Support Files/Pods-PaginationController-PaginationControllerTests/Pods-PaginationController-PaginationControllerTests.release.xcconfig"; sourceTree = "<group>"; };
+		A7C47373F09E6538AB882EE7 /* Pods-PaginationController.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PaginationController.release.xcconfig"; path = "Target Support Files/Pods-PaginationController/Pods-PaginationController.release.xcconfig"; sourceTree = "<group>"; };
+		D3E9C3075F2F817137184B60 /* Pods-PaginationController-PaginationControllerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PaginationController-PaginationControllerTests.debug.xcconfig"; path = "Target Support Files/Pods-PaginationController-PaginationControllerTests/Pods-PaginationController-PaginationControllerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F39E0094710A32BC2BD236CA /* Pods_PaginationControllerDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PaginationControllerDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +101,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				925B67F5B8781103A89C7008 /* Pods_PaginationController.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -97,6 +110,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				214E7BAD24E020B90002B83E /* PaginationController.framework in Frameworks */,
+				BBF8A25EEED52BC8DFE89E5D /* Pods_PaginationController_PaginationControllerTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -105,6 +119,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				214E7BE224E04FFA0002B83E /* PaginationController.framework in Frameworks */,
+				0C1ADE2D23B992F96F06CE59 /* Pods_PaginationControllerDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +134,7 @@
 				214E7BC224E020E70002B83E /* PaginationControllerDemo */,
 				214E7BA424E020B90002B83E /* Products */,
 				214E7BE124E04FFA0002B83E /* Frameworks */,
+				6DE624854EB0EA8E917E0CBC /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -191,8 +207,24 @@
 		214E7BE124E04FFA0002B83E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				458726CDD72524EB56F8B9EC /* Pods_PaginationController.framework */,
+				45C7DB3869B8D53B4222E931 /* Pods_PaginationController_PaginationControllerTests.framework */,
+				F39E0094710A32BC2BD236CA /* Pods_PaginationControllerDemo.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6DE624854EB0EA8E917E0CBC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4DAE365377A1658F68022F09 /* Pods-PaginationController.debug.xcconfig */,
+				A7C47373F09E6538AB882EE7 /* Pods-PaginationController.release.xcconfig */,
+				D3E9C3075F2F817137184B60 /* Pods-PaginationController-PaginationControllerTests.debug.xcconfig */,
+				789F4877F6E07CED1501B426 /* Pods-PaginationController-PaginationControllerTests.release.xcconfig */,
+				17C68901E4FAA46FAC24E0D0 /* Pods-PaginationControllerDemo.debug.xcconfig */,
+				432C2DF61CF7363FA71F7A74 /* Pods-PaginationControllerDemo.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -213,10 +245,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 214E7BB724E020B90002B83E /* Build configuration list for PBXNativeTarget "PaginationController" */;
 			buildPhases = (
+				5BA2391C54A4657BEF9A543F /* [CP] Check Pods Manifest.lock */,
 				214E7B9E24E020B90002B83E /* Headers */,
 				214E7B9F24E020B90002B83E /* Sources */,
 				214E7BA024E020B90002B83E /* Frameworks */,
 				214E7BA124E020B90002B83E /* Resources */,
+				212EB95B24E2A8B6009B4C92 /* SwiftLint */,
 			);
 			buildRules = (
 			);
@@ -231,6 +265,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 214E7BBA24E020B90002B83E /* Build configuration list for PBXNativeTarget "PaginationControllerTests" */;
 			buildPhases = (
+				66A44D11B4DBC7E2370E5712 /* [CP] Check Pods Manifest.lock */,
 				214E7BA824E020B90002B83E /* Sources */,
 				214E7BA924E020B90002B83E /* Frameworks */,
 				214E7BAA24E020B90002B83E /* Resources */,
@@ -249,6 +284,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 214E7BD224E020E80002B83E /* Build configuration list for PBXNativeTarget "PaginationControllerDemo" */;
 			buildPhases = (
+				213AFED05DBE89DE0A62B401 /* [CP] Check Pods Manifest.lock */,
 				214E7BBD24E020E70002B83E /* Sources */,
 				214E7BBE24E020E70002B83E /* Frameworks */,
 				214E7BBF24E020E70002B83E /* Resources */,
@@ -332,6 +368,93 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		212EB95B24E2A8B6009B4C92 /* SwiftLint */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = SwiftLint;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/SwiftLint/swiftlint\"\n";
+		};
+		213AFED05DBE89DE0A62B401 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PaginationControllerDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5BA2391C54A4657BEF9A543F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PaginationController-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		66A44D11B4DBC7E2370E5712 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PaginationController-PaginationControllerTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		214E7B9F24E020B90002B83E /* Sources */ = {
@@ -524,6 +647,7 @@
 		};
 		214E7BB824E020B90002B83E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4DAE365377A1658F68022F09 /* Pods-PaginationController.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -549,6 +673,7 @@
 		};
 		214E7BB924E020B90002B83E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A7C47373F09E6538AB882EE7 /* Pods-PaginationController.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -573,6 +698,7 @@
 		};
 		214E7BBB24E020B90002B83E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D3E9C3075F2F817137184B60 /* Pods-PaginationController-PaginationControllerTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -591,6 +717,7 @@
 		};
 		214E7BBC24E020B90002B83E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 789F4877F6E07CED1501B426 /* Pods-PaginationController-PaginationControllerTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -609,6 +736,7 @@
 		};
 		214E7BD324E020E80002B83E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 17C68901E4FAA46FAC24E0D0 /* Pods-PaginationControllerDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -626,6 +754,7 @@
 		};
 		214E7BD424E020E80002B83E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 432C2DF61CF7363FA71F7A74 /* Pods-PaginationControllerDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

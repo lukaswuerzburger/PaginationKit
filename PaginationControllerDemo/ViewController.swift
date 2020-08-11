@@ -9,14 +9,12 @@
 import UIKit
 import PaginationController
 
-
-
 class ViewController: UITableViewController {
 
     // MARK: - UI Actions
 
-    @objc func loadMoreButtonPressed() {
-        paginationController.loadNextPageIfNecessary()
+    @objc func resetButtonPressed() {
+        reset()
     }
 
     // MARK: - Variables
@@ -28,8 +26,9 @@ class ViewController: UITableViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        items = generateRandomElements()
         setupPaginationController()
+        setupNavigationItem()
+        reset()
     }
 
     // MARK: - View Setup
@@ -44,6 +43,10 @@ class ViewController: UITableViewController {
         }
     }
 
+    func setupNavigationItem() {
+        navigationItem.rightBarButtonItem = .init(title: "Reset", style: .plain, target: self, action: #selector(resetButtonPressed))
+    }
+
     // MARK: - Networking
 
     func loadMore(previousPage: ResponsePage?, callback: @escaping (ResponsePage?) -> Void) {
@@ -55,6 +58,12 @@ class ViewController: UITableViewController {
     }
 
     // MARK: - Helper
+
+    func reset() {
+        items = generateRandomElements()
+        paginationController.reset()
+        tableView.reloadData()
+    }
 
     func generateRandomElements() -> [String] {
         var elements: [String] = []

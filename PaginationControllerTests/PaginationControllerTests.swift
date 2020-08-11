@@ -14,7 +14,7 @@ class PaginationControllerTests: XCTestCase {
     func testInitializerStoresArguments() {
         let page = TestPage(hasNextPageValue: true)
         var didCallClosure = false
-        let paginationController = PaginationController(initialPage: page) { previous, callback in
+        let paginationController = PaginationController(initialPage: page) { _, _ in
             didCallClosure = true
         }
         XCTAssertEqual(page, paginationController.lastPage)
@@ -87,11 +87,11 @@ class PaginationControllerTests: XCTestCase {
 
 class LifeCycleDelegate: PaginationLifeCycleDelegate {
 
-    var didCallPaginationDidStartLoadingCallback: (() -> Void)? = nil
+    var didCallPaginationDidStartLoadingCallback: (() -> Void)?
     var didCallPaginationDidStartLoading = false {
         didSet { didCallPaginationDidStartLoadingCallback?() }
     }
-    var didCallPaginationDidStopLoadingCallback: (() -> Void)? = nil
+    var didCallPaginationDidStopLoadingCallback: (() -> Void)?
     var didCallPaginationDidStopLoading = false {
         didSet { didCallPaginationDidStopLoadingCallback?() }
     }

@@ -21,8 +21,8 @@ open class PaginationController<P: Page> {
     // MARK: - Variables
 
     var loadResource: (_ after: P?, @escaping (P?) -> Void) -> Void
-    var lastPage: P? = nil
-    public var lifeCycleDelegate: PaginationLifeCycleDelegate?
+    var lastPage: P?
+    public weak var lifeCycleDelegate: PaginationLifeCycleDelegate?
     public var state: State = .idle
 
     // MARK: - Initializer
@@ -51,7 +51,8 @@ open class PaginationController<P: Page> {
 
     public func loadNextPageIfNecessary() {
         guard state == .idle else { return }
-        guard (lastPage?.hasNextPage ?? true) else { return }
+        let shouldLoadNextPage = lastPage?.hasNextPage ?? true
+        guard shouldLoadNextPage else { return }
         loadingDidStart()
         state = .running
         loadResource(lastPage) { [weak self] page in
