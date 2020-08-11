@@ -17,7 +17,7 @@ open class TableViewPaginationController<P: Page>: PaginationController<P> {
 
     // MARK: - Initializer
 
-    public init(tableView: UITableView, loadingView: LoadingAnimatable = CenteredActivityIndicatorView(activityIndicatorStyle: .medium), initialPage: P? = nil, loadResource: @escaping (_ after: P?, @escaping (P?) -> Void) -> Void) {
+    public init(tableView: UITableView, loadingView: LoadingAnimatable = CenteredActivityIndicatorView(activityIndicatorStyle: .gray), initialPage: P? = nil, loadResource: @escaping (_ after: P?, @escaping (P?) -> Void) -> Void) {
         self.tableView = tableView
         self.loadingView = loadingView
         super.init(loadResource: loadResource)
