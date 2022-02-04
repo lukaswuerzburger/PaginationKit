@@ -1,25 +1,25 @@
 // swift-tools-version:5.0
 //
-// PaginationController
+// PaginationKit
 //
 
 import PackageDescription
 
 let package = Package(
-    name: "PaginationController",
+    name: "PaginationKit",
     platforms: [
         .iOS(.v10)
     ],
     products: [
         .library(
-            name: "PaginationController",
-            targets: ["PaginationController"]
+            name: "PaginationKit",
+            targets: ["PaginationKit"]
         )
     ],
     targets: [
         .target(
-            name: "PaginationController",
-            path: "PaginationController"
+            name: "PaginationKit",
+            path: "PaginationKit"
         )
     ],
     swiftLanguageVersions: [

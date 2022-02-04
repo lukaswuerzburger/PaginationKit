@@ -7,7 +7,7 @@
 //
 
 import UIKit
-import PaginationController
+import PaginationKit
 
 class ViewController: UITableViewController {
 

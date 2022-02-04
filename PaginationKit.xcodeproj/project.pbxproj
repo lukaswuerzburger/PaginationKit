@@ -7,14 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0C1ADE2D23B992F96F06CE59 /* Pods_PaginationControllerDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F39E0094710A32BC2BD236CA /* Pods_PaginationControllerDemo.framework */; };
+		060798ECC6E650DE78C3F89A /* Pods_PaginationKitDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39556679A754B1EC047C0183 /* Pods_PaginationKitDemo.framework */; };
 		212EB95424E1C589009B4C92 /* ResponsePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 212EB95324E1C589009B4C92 /* ResponsePage.swift */; };
 		212EB95624E2898C009B4C92 /* TableViewPaginationControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 212EB95524E2898C009B4C92 /* TableViewPaginationControllerTests.swift */; };
 		212EB95824E28A45009B4C92 /* TestPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 212EB95724E28A45009B4C92 /* TestPage.swift */; };
 		212EB95A24E2A1F4009B4C92 /* CenteredActivityIndicatorViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 212EB95924E2A1F4009B4C92 /* CenteredActivityIndicatorViewTests.swift */; };
-		214E7BAD24E020B90002B83E /* PaginationController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 214E7BA324E020B90002B83E /* PaginationController.framework */; };
+		214E7BAD24E020B90002B83E /* PaginationKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 214E7BA324E020B90002B83E /* PaginationKit.framework */; };
 		214E7BB224E020B90002B83E /* PaginationControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 214E7BB124E020B90002B83E /* PaginationControllerTests.swift */; };
-		214E7BB424E020B90002B83E /* PaginationController.h in Headers */ = {isa = PBXBuildFile; fileRef = 214E7BA624E020B90002B83E /* PaginationController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		214E7BB424E020B90002B83E /* PaginationKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 214E7BA624E020B90002B83E /* PaginationKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		214E7BC424E020E70002B83E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 214E7BC324E020E70002B83E /* AppDelegate.swift */; };
 		214E7BC824E020E70002B83E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 214E7BC724E020E70002B83E /* ViewController.swift */; };
 		214E7BCB24E020E70002B83E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 214E7BC924E020E70002B83E /* Main.storyboard */; };
@@ -25,10 +25,10 @@
 		214E7BDA24E048D20002B83E /* CenteredActivityIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 214E7BD924E048D20002B83E /* CenteredActivityIndicatorView.swift */; };
 		214E7BDC24E04D670002B83E /* Page.swift in Sources */ = {isa = PBXBuildFile; fileRef = 214E7BDB24E04D670002B83E /* Page.swift */; };
 		214E7BDE24E04D810002B83E /* LoadingAnimatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 214E7BDD24E04D810002B83E /* LoadingAnimatable.swift */; };
-		214E7BE224E04FFA0002B83E /* PaginationController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 214E7BA324E020B90002B83E /* PaginationController.framework */; };
-		214E7BE324E04FFA0002B83E /* PaginationController.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 214E7BA324E020B90002B83E /* PaginationController.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		925B67F5B8781103A89C7008 /* Pods_PaginationController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 458726CDD72524EB56F8B9EC /* Pods_PaginationController.framework */; };
-		BBF8A25EEED52BC8DFE89E5D /* Pods_PaginationController_PaginationControllerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45C7DB3869B8D53B4222E931 /* Pods_PaginationController_PaginationControllerTests.framework */; };
+		214E7BE224E04FFA0002B83E /* PaginationKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 214E7BA324E020B90002B83E /* PaginationKit.framework */; };
+		214E7BE324E04FFA0002B83E /* PaginationKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 214E7BA324E020B90002B83E /* PaginationKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F01E5A56676080DBD88774A0 /* Pods_PaginationKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E090B25F0ABB37599AA5AECE /* Pods_PaginationKit.framework */; };
+		F7F3F98B93BAC5554688B864 /* Pods_PaginationKit_PaginationKitTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FFD08E572F85201550569CB /* Pods_PaginationKit_PaginationKitTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,7 +55,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				214E7BE324E04FFA0002B83E /* PaginationController.framework in Embed Frameworks */,
+				214E7BE324E04FFA0002B83E /* PaginationKit.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -63,18 +63,17 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		17C68901E4FAA46FAC24E0D0 /* Pods-PaginationControllerDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PaginationControllerDemo.debug.xcconfig"; path = "Target Support Files/Pods-PaginationControllerDemo/Pods-PaginationControllerDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		212EB95324E1C589009B4C92 /* ResponsePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponsePage.swift; sourceTree = "<group>"; };
 		212EB95524E2898C009B4C92 /* TableViewPaginationControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewPaginationControllerTests.swift; sourceTree = "<group>"; };
 		212EB95724E28A45009B4C92 /* TestPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestPage.swift; sourceTree = "<group>"; };
 		212EB95924E2A1F4009B4C92 /* CenteredActivityIndicatorViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CenteredActivityIndicatorViewTests.swift; sourceTree = "<group>"; };
-		214E7BA324E020B90002B83E /* PaginationController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PaginationController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		214E7BA624E020B90002B83E /* PaginationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PaginationController.h; sourceTree = "<group>"; };
+		214E7BA324E020B90002B83E /* PaginationKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PaginationKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		214E7BA624E020B90002B83E /* PaginationKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PaginationKit.h; sourceTree = "<group>"; };
 		214E7BA724E020B90002B83E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		214E7BAC24E020B90002B83E /* PaginationControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PaginationControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		214E7BAC24E020B90002B83E /* PaginationKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PaginationKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		214E7BB124E020B90002B83E /* PaginationControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaginationControllerTests.swift; sourceTree = "<group>"; };
 		214E7BB324E020B90002B83E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		214E7BC124E020E70002B83E /* PaginationControllerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PaginationControllerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		214E7BC124E020E70002B83E /* PaginationKitDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PaginationKitDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		214E7BC324E020E70002B83E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		214E7BC724E020E70002B83E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		214E7BCA24E020E70002B83E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -86,14 +85,15 @@
 		214E7BD924E048D20002B83E /* CenteredActivityIndicatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CenteredActivityIndicatorView.swift; sourceTree = "<group>"; };
 		214E7BDB24E04D670002B83E /* Page.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page.swift; sourceTree = "<group>"; };
 		214E7BDD24E04D810002B83E /* LoadingAnimatable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingAnimatable.swift; sourceTree = "<group>"; };
-		432C2DF61CF7363FA71F7A74 /* Pods-PaginationControllerDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PaginationControllerDemo.release.xcconfig"; path = "Target Support Files/Pods-PaginationControllerDemo/Pods-PaginationControllerDemo.release.xcconfig"; sourceTree = "<group>"; };
-		458726CDD72524EB56F8B9EC /* Pods_PaginationController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PaginationController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		45C7DB3869B8D53B4222E931 /* Pods_PaginationController_PaginationControllerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PaginationController_PaginationControllerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4DAE365377A1658F68022F09 /* Pods-PaginationController.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PaginationController.debug.xcconfig"; path = "Target Support Files/Pods-PaginationController/Pods-PaginationController.debug.xcconfig"; sourceTree = "<group>"; };
-		789F4877F6E07CED1501B426 /* Pods-PaginationController-PaginationControllerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PaginationController-PaginationControllerTests.release.xcconfig"; path = "Target Support Files/Pods-PaginationController-PaginationControllerTests/Pods-PaginationController-PaginationControllerTests.release.xcconfig"; sourceTree = "<group>"; };
-		A7C47373F09E6538AB882EE7 /* Pods-PaginationController.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PaginationController.release.xcconfig"; path = "Target Support Files/Pods-PaginationController/Pods-PaginationController.release.xcconfig"; sourceTree = "<group>"; };
-		D3E9C3075F2F817137184B60 /* Pods-PaginationController-PaginationControllerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PaginationController-PaginationControllerTests.debug.xcconfig"; path = "Target Support Files/Pods-PaginationController-PaginationControllerTests/Pods-PaginationController-PaginationControllerTests.debug.xcconfig"; sourceTree = "<group>"; };
-		F39E0094710A32BC2BD236CA /* Pods_PaginationControllerDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PaginationControllerDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2624FB08FD6D4CE93D315EFC /* Pods-PaginationKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PaginationKit.debug.xcconfig"; path = "Target Support Files/Pods-PaginationKit/Pods-PaginationKit.debug.xcconfig"; sourceTree = "<group>"; };
+		39556679A754B1EC047C0183 /* Pods_PaginationKitDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PaginationKitDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3EFB3CDE936518C50668D239 /* Pods-PaginationKitDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PaginationKitDemo.debug.xcconfig"; path = "Target Support Files/Pods-PaginationKitDemo/Pods-PaginationKitDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		4AA906D970DA05638CEF5DCD /* Pods-PaginationKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PaginationKit.release.xcconfig"; path = "Target Support Files/Pods-PaginationKit/Pods-PaginationKit.release.xcconfig"; sourceTree = "<group>"; };
+		7FFD08E572F85201550569CB /* Pods_PaginationKit_PaginationKitTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PaginationKit_PaginationKitTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8971B45BC6CEBBFD88260EF0 /* Pods-PaginationKitDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PaginationKitDemo.release.xcconfig"; path = "Target Support Files/Pods-PaginationKitDemo/Pods-PaginationKitDemo.release.xcconfig"; sourceTree = "<group>"; };
+		E090B25F0ABB37599AA5AECE /* Pods_PaginationKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PaginationKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2B60F5CAA651F7602747521 /* Pods-PaginationKit-PaginationKitTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PaginationKit-PaginationKitTests.release.xcconfig"; path = "Target Support Files/Pods-PaginationKit-PaginationKitTests/Pods-PaginationKit-PaginationKitTests.release.xcconfig"; sourceTree = "<group>"; };
+		F2E0E2FFBD1C3AF413A70BE1 /* Pods-PaginationKit-PaginationKitTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PaginationKit-PaginationKitTests.debug.xcconfig"; path = "Target Support Files/Pods-PaginationKit-PaginationKitTests/Pods-PaginationKit-PaginationKitTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,7 +101,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				925B67F5B8781103A89C7008 /* Pods_PaginationController.framework in Frameworks */,
+				F01E5A56676080DBD88774A0 /* Pods_PaginationKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -109,8 +109,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				214E7BAD24E020B90002B83E /* PaginationController.framework in Frameworks */,
-				BBF8A25EEED52BC8DFE89E5D /* Pods_PaginationController_PaginationControllerTests.framework in Frameworks */,
+				214E7BAD24E020B90002B83E /* PaginationKit.framework in Frameworks */,
+				F7F3F98B93BAC5554688B864 /* Pods_PaginationKit_PaginationKitTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -118,8 +118,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				214E7BE224E04FFA0002B83E /* PaginationController.framework in Frameworks */,
-				0C1ADE2D23B992F96F06CE59 /* Pods_PaginationControllerDemo.framework in Frameworks */,
+				214E7BE224E04FFA0002B83E /* PaginationKit.framework in Frameworks */,
+				060798ECC6E650DE78C3F89A /* Pods_PaginationKitDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -129,9 +129,9 @@
 		214E7B9924E020B90002B83E = {
 			isa = PBXGroup;
 			children = (
-				214E7BA524E020B90002B83E /* PaginationController */,
-				214E7BB024E020B90002B83E /* PaginationControllerTests */,
-				214E7BC224E020E70002B83E /* PaginationControllerDemo */,
+				214E7BA524E020B90002B83E /* PaginationKit */,
+				214E7BB024E020B90002B83E /* PaginationKitTests */,
+				214E7BC224E020E70002B83E /* PaginationKitDemo */,
 				214E7BA424E020B90002B83E /* Products */,
 				214E7BE124E04FFA0002B83E /* Frameworks */,
 				6DE624854EB0EA8E917E0CBC /* Pods */,
@@ -141,23 +141,23 @@
 		214E7BA424E020B90002B83E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				214E7BA324E020B90002B83E /* PaginationController.framework */,
-				214E7BAC24E020B90002B83E /* PaginationControllerTests.xctest */,
-				214E7BC124E020E70002B83E /* PaginationControllerDemo.app */,
+				214E7BA324E020B90002B83E /* PaginationKit.framework */,
+				214E7BAC24E020B90002B83E /* PaginationKitTests.xctest */,
+				214E7BC124E020E70002B83E /* PaginationKitDemo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		214E7BA524E020B90002B83E /* PaginationController */ = {
+		214E7BA524E020B90002B83E /* PaginationKit */ = {
 			isa = PBXGroup;
 			children = (
 				214E7BDF24E04DF90002B83E /* Sources */,
 				214E7BE024E04DFF0002B83E /* Supporting Files */,
 			);
-			path = PaginationController;
+			path = PaginationKit;
 			sourceTree = "<group>";
 		};
-		214E7BB024E020B90002B83E /* PaginationControllerTests */ = {
+		214E7BB024E020B90002B83E /* PaginationKitTests */ = {
 			isa = PBXGroup;
 			children = (
 				214E7BB124E020B90002B83E /* PaginationControllerTests.swift */,
@@ -166,10 +166,10 @@
 				212EB95724E28A45009B4C92 /* TestPage.swift */,
 				214E7BB324E020B90002B83E /* Info.plist */,
 			);
-			path = PaginationControllerTests;
+			path = PaginationKitTests;
 			sourceTree = "<group>";
 		};
-		214E7BC224E020E70002B83E /* PaginationControllerDemo */ = {
+		214E7BC224E020E70002B83E /* PaginationKitDemo */ = {
 			isa = PBXGroup;
 			children = (
 				214E7BC324E020E70002B83E /* AppDelegate.swift */,
@@ -180,7 +180,7 @@
 				214E7BCE24E020E80002B83E /* LaunchScreen.storyboard */,
 				214E7BD124E020E80002B83E /* Info.plist */,
 			);
-			path = PaginationControllerDemo;
+			path = PaginationKitDemo;
 			sourceTree = "<group>";
 		};
 		214E7BDF24E04DF90002B83E /* Sources */ = {
@@ -198,7 +198,7 @@
 		214E7BE024E04DFF0002B83E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				214E7BA624E020B90002B83E /* PaginationController.h */,
+				214E7BA624E020B90002B83E /* PaginationKit.h */,
 				214E7BA724E020B90002B83E /* Info.plist */,
 			);
 			path = "Supporting Files";
@@ -207,9 +207,9 @@
 		214E7BE124E04FFA0002B83E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				458726CDD72524EB56F8B9EC /* Pods_PaginationController.framework */,
-				45C7DB3869B8D53B4222E931 /* Pods_PaginationController_PaginationControllerTests.framework */,
-				F39E0094710A32BC2BD236CA /* Pods_PaginationControllerDemo.framework */,
+				E090B25F0ABB37599AA5AECE /* Pods_PaginationKit.framework */,
+				7FFD08E572F85201550569CB /* Pods_PaginationKit_PaginationKitTests.framework */,
+				39556679A754B1EC047C0183 /* Pods_PaginationKitDemo.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -217,12 +217,12 @@
 		6DE624854EB0EA8E917E0CBC /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				4DAE365377A1658F68022F09 /* Pods-PaginationController.debug.xcconfig */,
-				A7C47373F09E6538AB882EE7 /* Pods-PaginationController.release.xcconfig */,
-				D3E9C3075F2F817137184B60 /* Pods-PaginationController-PaginationControllerTests.debug.xcconfig */,
-				789F4877F6E07CED1501B426 /* Pods-PaginationController-PaginationControllerTests.release.xcconfig */,
-				17C68901E4FAA46FAC24E0D0 /* Pods-PaginationControllerDemo.debug.xcconfig */,
-				432C2DF61CF7363FA71F7A74 /* Pods-PaginationControllerDemo.release.xcconfig */,
+				2624FB08FD6D4CE93D315EFC /* Pods-PaginationKit.debug.xcconfig */,
+				4AA906D970DA05638CEF5DCD /* Pods-PaginationKit.release.xcconfig */,
+				F2E0E2FFBD1C3AF413A70BE1 /* Pods-PaginationKit-PaginationKitTests.debug.xcconfig */,
+				E2B60F5CAA651F7602747521 /* Pods-PaginationKit-PaginationKitTests.release.xcconfig */,
+				3EFB3CDE936518C50668D239 /* Pods-PaginationKitDemo.debug.xcconfig */,
+				8971B45BC6CEBBFD88260EF0 /* Pods-PaginationKitDemo.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -234,16 +234,16 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				214E7BB424E020B90002B83E /* PaginationController.h in Headers */,
+				214E7BB424E020B90002B83E /* PaginationKit.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		214E7BA224E020B90002B83E /* PaginationController */ = {
+		214E7BA224E020B90002B83E /* PaginationKit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 214E7BB724E020B90002B83E /* Build configuration list for PBXNativeTarget "PaginationController" */;
+			buildConfigurationList = 214E7BB724E020B90002B83E /* Build configuration list for PBXNativeTarget "PaginationKit" */;
 			buildPhases = (
 				5BA2391C54A4657BEF9A543F /* [CP] Check Pods Manifest.lock */,
 				214E7B9E24E020B90002B83E /* Headers */,
@@ -256,14 +256,14 @@
 			);
 			dependencies = (
 			);
-			name = PaginationController;
+			name = PaginationKit;
 			productName = PaginationController;
-			productReference = 214E7BA324E020B90002B83E /* PaginationController.framework */;
+			productReference = 214E7BA324E020B90002B83E /* PaginationKit.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		214E7BAB24E020B90002B83E /* PaginationControllerTests */ = {
+		214E7BAB24E020B90002B83E /* PaginationKitTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 214E7BBA24E020B90002B83E /* Build configuration list for PBXNativeTarget "PaginationControllerTests" */;
+			buildConfigurationList = 214E7BBA24E020B90002B83E /* Build configuration list for PBXNativeTarget "PaginationKitTests" */;
 			buildPhases = (
 				66A44D11B4DBC7E2370E5712 /* [CP] Check Pods Manifest.lock */,
 				214E7BA824E020B90002B83E /* Sources */,
@@ -275,14 +275,14 @@
 			dependencies = (
 				214E7BAF24E020B90002B83E /* PBXTargetDependency */,
 			);
-			name = PaginationControllerTests;
+			name = PaginationKitTests;
 			productName = PaginationControllerTests;
-			productReference = 214E7BAC24E020B90002B83E /* PaginationControllerTests.xctest */;
+			productReference = 214E7BAC24E020B90002B83E /* PaginationKitTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		214E7BC024E020E70002B83E /* PaginationControllerDemo */ = {
+		214E7BC024E020E70002B83E /* PaginationKitDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 214E7BD224E020E80002B83E /* Build configuration list for PBXNativeTarget "PaginationControllerDemo" */;
+			buildConfigurationList = 214E7BD224E020E80002B83E /* Build configuration list for PBXNativeTarget "PaginationKitDemo" */;
 			buildPhases = (
 				213AFED05DBE89DE0A62B401 /* [CP] Check Pods Manifest.lock */,
 				214E7BBD24E020E70002B83E /* Sources */,
@@ -295,9 +295,9 @@
 			dependencies = (
 				214E7BE524E04FFB0002B83E /* PBXTargetDependency */,
 			);
-			name = PaginationControllerDemo;
+			name = PaginationKitDemo;
 			productName = PaginationControllerDemo;
-			productReference = 214E7BC124E020E70002B83E /* PaginationControllerDemo.app */;
+			productReference = 214E7BC124E020E70002B83E /* PaginationKitDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -307,7 +307,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1160;
-				LastUpgradeCheck = 1160;
+				LastUpgradeCheck = 1320;
 				ORGANIZATIONNAME = "Lukas Würzburger";
 				TargetAttributes = {
 					214E7BA224E020B90002B83E = {
@@ -322,7 +322,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 214E7B9D24E020B90002B83E /* Build configuration list for PBXProject "PaginationController" */;
+			buildConfigurationList = 214E7B9D24E020B90002B83E /* Build configuration list for PBXProject "PaginationKit" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -335,9 +335,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				214E7BA224E020B90002B83E /* PaginationController */,
-				214E7BAB24E020B90002B83E /* PaginationControllerTests */,
-				214E7BC024E020E70002B83E /* PaginationControllerDemo */,
+				214E7BA224E020B90002B83E /* PaginationKit */,
+				214E7BAB24E020B90002B83E /* PaginationKitTests */,
+				214E7BC024E020E70002B83E /* PaginationKitDemo */,
 			);
 		};
 /* End PBXProject section */
@@ -403,7 +403,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-PaginationControllerDemo-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-PaginationKitDemo-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -425,7 +425,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-PaginationController-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-PaginationKit-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -447,7 +447,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-PaginationController-PaginationControllerTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-PaginationKit-PaginationKitTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -495,12 +495,12 @@
 /* Begin PBXTargetDependency section */
 		214E7BAF24E020B90002B83E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 214E7BA224E020B90002B83E /* PaginationController */;
+			target = 214E7BA224E020B90002B83E /* PaginationKit */;
 			targetProxy = 214E7BAE24E020B90002B83E /* PBXContainerItemProxy */;
 		};
 		214E7BE524E04FFB0002B83E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 214E7BA224E020B90002B83E /* PaginationController */;
+			target = 214E7BA224E020B90002B83E /* PaginationKit */;
 			targetProxy = 214E7BE424E04FFB0002B83E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -551,6 +551,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -576,7 +577,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -614,6 +615,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -633,7 +635,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -647,7 +649,7 @@
 		};
 		214E7BB824E020B90002B83E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4DAE365377A1658F68022F09 /* Pods-PaginationController.debug.xcconfig */;
+			baseConfigurationReference = 2624FB08FD6D4CE93D315EFC /* Pods-PaginationKit.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -655,14 +657,14 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "PaginationController/Supporting Files/Info.plist";
+				INFOPLIST_FILE = "PaginationKit/Supporting Files/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = de.lukaswuerzburger.PaginationController;
+				PRODUCT_BUNDLE_IDENTIFIER = de.lukaswuerzburger.PaginationKit;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -673,7 +675,7 @@
 		};
 		214E7BB924E020B90002B83E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A7C47373F09E6538AB882EE7 /* Pods-PaginationController.release.xcconfig */;
+			baseConfigurationReference = 4AA906D970DA05638CEF5DCD /* Pods-PaginationKit.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -681,14 +683,14 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "PaginationController/Supporting Files/Info.plist";
+				INFOPLIST_FILE = "PaginationKit/Supporting Files/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = de.lukaswuerzburger.PaginationController;
+				PRODUCT_BUNDLE_IDENTIFIER = de.lukaswuerzburger.PaginationKit;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
@@ -698,17 +700,17 @@
 		};
 		214E7BBB24E020B90002B83E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D3E9C3075F2F817137184B60 /* Pods-PaginationController-PaginationControllerTests.debug.xcconfig */;
+			baseConfigurationReference = F2E0E2FFBD1C3AF413A70BE1 /* Pods-PaginationKit-PaginationKitTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = PaginationControllerTests/Info.plist;
+				INFOPLIST_FILE = PaginationKitTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = de.lukaswuerzburger.PaginationControllerTests;
+				PRODUCT_BUNDLE_IDENTIFIER = de.lukaswuerzburger.PaginationKitTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -717,17 +719,17 @@
 		};
 		214E7BBC24E020B90002B83E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 789F4877F6E07CED1501B426 /* Pods-PaginationController-PaginationControllerTests.release.xcconfig */;
+			baseConfigurationReference = E2B60F5CAA651F7602747521 /* Pods-PaginationKit-PaginationKitTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = PaginationControllerTests/Info.plist;
+				INFOPLIST_FILE = PaginationKitTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = de.lukaswuerzburger.PaginationControllerTests;
+				PRODUCT_BUNDLE_IDENTIFIER = de.lukaswuerzburger.PaginationKitTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -736,16 +738,16 @@
 		};
 		214E7BD324E020E80002B83E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 17C68901E4FAA46FAC24E0D0 /* Pods-PaginationControllerDemo.debug.xcconfig */;
+			baseConfigurationReference = 3EFB3CDE936518C50668D239 /* Pods-PaginationKitDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = PaginationControllerDemo/Info.plist;
+				INFOPLIST_FILE = PaginationKitDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = de.lukaswuerzburger.PaginationControllerDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = de.lukaswuerzburger.PaginationKitDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -754,16 +756,16 @@
 		};
 		214E7BD424E020E80002B83E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 432C2DF61CF7363FA71F7A74 /* Pods-PaginationControllerDemo.release.xcconfig */;
+			baseConfigurationReference = 8971B45BC6CEBBFD88260EF0 /* Pods-PaginationKitDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = PaginationControllerDemo/Info.plist;
+				INFOPLIST_FILE = PaginationKitDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = de.lukaswuerzburger.PaginationControllerDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = de.lukaswuerzburger.PaginationKitDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -773,7 +775,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		214E7B9D24E020B90002B83E /* Build configuration list for PBXProject "PaginationController" */ = {
+		214E7B9D24E020B90002B83E /* Build configuration list for PBXProject "PaginationKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				214E7BB524E020B90002B83E /* Debug */,
@@ -782,7 +784,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		214E7BB724E020B90002B83E /* Build configuration list for PBXNativeTarget "PaginationController" */ = {
+		214E7BB724E020B90002B83E /* Build configuration list for PBXNativeTarget "PaginationKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				214E7BB824E020B90002B83E /* Debug */,
@@ -791,7 +793,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		214E7BBA24E020B90002B83E /* Build configuration list for PBXNativeTarget "PaginationControllerTests" */ = {
+		214E7BBA24E020B90002B83E /* Build configuration list for PBXNativeTarget "PaginationKitTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				214E7BBB24E020B90002B83E /* Debug */,
@@ -800,7 +802,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		214E7BD224E020E80002B83E /* Build configuration list for PBXNativeTarget "PaginationControllerDemo" */ = {
+		214E7BD224E020E80002B83E /* Build configuration list for PBXNativeTarget "PaginationKitDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				214E7BD324E020E80002B83E /* Debug */,
