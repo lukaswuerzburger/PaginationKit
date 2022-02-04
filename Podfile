@@ -1,12 +1,12 @@
 platform :ios, '10.0'
 use_frameworks!
 
-target 'PaginationController' do
+target 'PaginationKit' do
   pod 'SwiftLint'
 
-  target 'PaginationControllerTests' do
+  target 'PaginationKitTests' do
   end
 end
 
-target 'PaginationControllerDemo' do
+target 'PaginationKitDemo' do
 end
