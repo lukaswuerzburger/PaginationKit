@@ -6,7 +6,7 @@
 //  Copyright © 2020 Lukas Würzburger. All rights reserved.
 //
 
-import PaginationController
+import PaginationKit
 
 class TestPage: NSObject, Page {
     var hasNextPageValue: Bool

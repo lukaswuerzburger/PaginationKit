@@ -7,7 +7,7 @@
 //
 
 import XCTest
-@testable import PaginationController
+@testable import PaginationKit
 
 class CenteredActivityIndicatorViewTests: XCTestCase {
 

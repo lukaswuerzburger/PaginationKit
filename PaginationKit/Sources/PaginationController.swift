@@ -6,7 +6,7 @@
 //  Copyright © 2020 Lukas Würzburger. All rights reserved.
 //
 
-public protocol PaginationLifeCycleDelegate: class {
+public protocol PaginationLifeCycleDelegate: AnyObject {
     func paginationDidStartLoading()
     func paginationDidStopLoading()
 }
